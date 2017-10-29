@@ -1,0 +1,38 @@
+.md-layer-1-1-0 {
+z-index: 996 !important; color: #ffffff !important;
+ text-align: center;
+ font-size: 1.16666666667em;
+ font-weight: 700;
+ font-family: "Tahoma";
+}
+.md-layer-1-1-1 {
+z-index: 997 !important; color: #ffffff !important;
+ text-align: center;
+ font-size: 5.08333333333em;
+ font-weight: 700;
+ font-family: "Lora";
+}
+.md-layer-1-1-2 {
+z-index: 998 !important; color: #ffffff !important;
+ text-align: center;
+ font-size: 1.16666666667em;
+ font-weight: 700;
+ font-family: "Tahoma";
+}
+.md-layer-1-1-3{font-size: inherit; }
+.md-layer-1-1-3 a {
+border: 2px solid #ffffff;
+ padding-top: 15px;
+ padding-right: 15px;
+ padding-bottom: 15px;
+ padding-left: 15px;
+ color: #fefefe !important;
+ text-align: center;
+ font-size: 1.16666666667em;
+}
+.md-layer-1-1-3 {z-index: 999!important;}
+.md-layer-1-1-3 a:hover{
+color: #ffffff !important;
+background-color: #46a1f0;
+border-color: #46a1f0;
+}
