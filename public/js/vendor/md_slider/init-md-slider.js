@@ -1,0 +1,1 @@
+(function(c,a,b){a.behaviors.iniMDSlider={attach:function(e,f){var d=b.inEffects,g=b.outEffects;c(window).load(function(){c.each(b.md_slider,function(h,i){c("#md-slider-"+h+"-block").mdSlider(i)})})}}})(jQuery,Drupal,drupalSettings);

@@ -21,6 +21,9 @@
   @import url("{{ url('css/external.css') }}");
   @import url("{{ url('css/bootstrap.min.css') }}");
   @import url("{{ url('css/style.css') }}");
+  @import url("{{ url('css/md-slider.css') }}");
+  @import url("{{ url('css/md-slider-style.css') }}");
+  @import url("{{ url('css/md-slider-home_1_slider-layers.css') }}");
 </style>
 
 
@@ -176,6 +179,62 @@
       </div>
       <!-- .module-search-box end -->
     </header>
+
+
+
+    <div>
+
+
+      <div class="md-slider-wrap md-slider-1-block-wrap md-slider-responsive md-slider-full-width md-slider-bullet-3 md-slider-thumb-1" style="height: 508px;">
+        <div class="md-slide-wrap">
+          <div id="md-slider-1-block" class="md-slide-items" style="min-height:510px">
+
+            <div class="md-slide-item md-layer-1-1" data-timeout="8000" data-transition="slit-vertical-down,strip-down-right" data-thumb="https://www.advanceprogress.org/sites/default/files/styles/thumbnail/public/md-slider-image/Communityeating20481.jpg?itok=HHR_hAr7"
+              data-thumb-type="image" data-thumb-alt="" style="top: 0px; left: 0px; display: block; height: 508px;">
+              <div class="md-main-img" style="">
+
+                <img src="https://www.advanceprogress.org/sites/default/files/md-slider-image/Communityeating20481.jpg" alt="Community members eating" style="width: 1345px; height: auto; top: -194.224px; left: 0px;">
+
+              </div>
+              <div class="md-objects" style="width: 1345px; font-size: 98.7035%;">
+                <div class="md-object md-layer-1-1-0 fadeInUp" data-x="615" data-y="112" data-width="140" data-height="36" data-start="400" data-stop="8000" data-easein="fadeInUp" style="width: 10.3781%; height: 7.05882%; top: 21.9608%; left: 45.5893%; display: block;">
+
+                  Get Ready
+
+                </div>
+
+                <div class="md-object md-layer-1-1-1 fadeInUp" data-x="262" data-y="148" data-width="890" data-height="50" data-start="800" data-stop="8000" data-easein="fadeInUp" style="width: 65.9748%; height: 9.80392%; top: 29.0196%; left: 19.4218%; display: block;">
+
+                  TO ENACT PROGRESS
+
+                </div>
+
+                <div class="md-object md-layer-1-1-2 fadeInUp" data-x="307" data-y="243" data-width="800" data-height="50" data-start="1200" data-stop="7957" data-easein="fadeInUp" style="width: 59.3032%; height: 9.80392%; top: 47.6471%; left: 22.7576%; display: block;">
+
+                  by working with us to draft progressive legislation
+
+                </div>
+
+                <div class="md-object md-layer-1-1-3" data-x="606" data-y="339" data-width="120" data-height="13" data-start="1700" data-stop="8000" data-easein="fadeInUp" data-paddingtop="15" data-paddingright="15" data-paddingbottom="15" data-paddingleft="15" style="width: 8.89548%; height: 2.54902%; top: 66.4706%; left: 44.9222%; display: none;">
+
+                  <a href="#">
+                    CHECK IT NOW
+                </a>
+
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+          <div class="md-bullets" style="left: 20px; right: 20px;">
+            <div class="md-bullet md-current" rel="0"><a></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
     <section class="shortcode-9">
@@ -627,12 +686,101 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
   </div>
 
+  <script type="application/json" data-drupal-selector="drupal-settings-json">
+    {
+      "path": {
+        "baseUrl": "\/",
+        "scriptPath": null,
+        "pathPrefix": "",
+        "currentPath": "node",
+        "currentPathIsAdmin": false,
+        "isFront": true,
+        "currentLanguage": "en"
+      },
+      "pluralDelimiter": "\u0003",
+      "md_slider": {
+        "1": {
+          "full_width": 1,
+          "width": "1349",
+          "height": "510",
+          "touch_swipe": 1,
+          "responsive": true,
+          "videobox": 0,
+          "loop": true,
+          "loadingbar": 0,
+          "bar_position": "bottom",
+          "show_next_prev_button": 0,
+          "auto_play": 1,
+          "pause_hover": 1,
+          "show_bullet": 1,
+          "bullet_position": "3",
+          "show_thumbnail": 0,
+          "thumbnail_position": "1",
+          "border_style": "0",
+          "dropshadow_style": 0,
+          "animation": "fade",
+          "delay": "8000",
+          "transtime": "800",
+          "thumb_style": "thumbnail",
+          "create_bg_imgstyle": 1,
+          "bg_style": "none",
+          "dmf_google": "https:\/\/fonts.googleapis.com\/css?family=Lora:400,500,400italic,700,700italic",
+          "on_start": "",
+          "on_end": "",
+          "color_saved": "ff9900,CC0000",
+          "fullWidth": true,
+          "transitionsSpeed": 800,
+          "enableDrag": true,
+          "pauseOnHover": true,
+          "autoPlay": true,
+          "enableLoadingBar": false,
+          "loadingBarPosition": "bottom",
+          "enableNextPrevButton": false,
+          "enableBullet": true,
+          "bulletPosition": "3",
+          "enableThumbnail": false,
+          "thumbnailPosition": "1",
+          "slideShowDelay": "8000",
+          "OnTransitionStart": "",
+          "OnTransitionEnd": "",
+          "styleShadow": 0
+        }
+      },
+      "inEffects": ["bounceIn", "bounceInDown", "bounceInUp", "bounceInLeft", "bounceInRight", "fadeIn", "fadeInUp", "fadeInDown", "fadeInLeft", "fadeInRight", "fadeInUpBig", "fadeInDownBig", "fadeInLeftBig", "fadeInRightBig", "flipInX", "flipInY",
+        "foolishIn", "lightSpeedIn", "puffIn", "rollIn", "rotateIn", "rotateInDownLeft", "rotateInDownRight", "rotateInUpLeft", "rotateInUpRight", "twisterInDown", "twisterInUp", "swap", "swashIn", "tinRightIn", "tinLeftIn", "tinUpIn", "tinDownIn",
+        "vanishIn", "shuffleLetter"
+      ],
+      "outEffects": ["bombRightOut", "bombLeftOut", "bounceOut", "bounceOutDown", "bounceOutUp", "bounceOutLeft", "bounceOutRight", "fadeOut", "fadeOutUp", "fadeOutDown", "fadeOutLeft", "fadeOutRight", "fadeOutUpBig", "fadeOutDownBig",
+        "fadeOutLeftBig", "fadeOutRightBig", "flipOutX", "flipOutY", "foolishOut", "hinge", "holeOut", "lightSpeedOut", "puffOut", "rollOut", "rotateOut", "rotateOutDownLeft", "rotateOutDownRight", "rotateOutUpLeft", "rotateOutUpRight",
+        "rotateDown", "rotateUp", "rotateLeft", "rotateRight", "swashOut", "tinRightOut", "tinLeftOut", "tinUpOut", "tinDownOut", "vanishOut"
+      ],
+      "ajaxTrustedUrl": {
+        "\/search\/node": true
+      },
+      "user": {
+        "uid": 0,
+        "permissionsHash": "79111dd9926898fea075234f175de8821e561bebdc16e69d47419a8e06dada55"
+      }
+    }
+  </script>
   <script src="{{ url('js/vendor/domready/ready.min.js?v=1.0.8') }}"></script>
   <script src="{{ url('js/vendor/jquery/jquery.min.js?v=2.2.4') }}"></script>
   <script src="{{ url('js/mount-laravel/plugins.js?v=8.3.7') }}"></script>
   <script src="{{ url('js/mount-laravel/functions.js?v=8.3.7') }}"></script>
   <script src="{{ url('js/vendor/themepunch/jquery.themepunch.revolution.min.js?v=8.3.7') }}"></script>
   <script src="{{ url('js/mount-laravel/update.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/mount-laravel/drupalSettingsLoader.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/mount-laravel/drupal.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/mount-laravel/drupal.init.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/vendor/themepunch/revolution.extension.kenburn.min.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/vendor/themepunch/revolution.extension.navigation.min.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/mount-laravel/rsconfig.js?v=8.3.7') }}"></script>
+  <script src="{{ url('js/vendor/md_slider/jquery.touchwipe.js') }}"></script>
+  <script src="{{ url('js/vendor/md_slider/modernizr.js') }}"></script>
+  <script src="{{ url('js/vendor/md_slider/jquery.easing.js') }}"></script>
+  <script src="{{ url('js/vendor/md_slider/jquery-migrate-1.2.1.min.js') }}"></script>
+  <script src="{{ url('js/vendor/md_slider/md-slider.js') }}"></script>
+  <script src="{{ url('js/vendor/md_slider/init-md-slider.js') }}"></script>
 
 
 </body>
