@@ -41,7 +41,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'host' => env('DB_HOST', 'advancesprogress.org'),
+            'host' => env('DB_HOST', 'advanceprogress.org'),
             'port' => env('DB_PORT', '3306'),
             'database' => env('DB_DATABASE', 'aplegal'),
             'username' => env('DB_USERNAME', 'progrfw1'),

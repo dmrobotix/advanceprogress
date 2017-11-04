@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('front');
 });
+
+Route::get('/database', function () {
+    return view('database');
+});
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/donate', function () {
+    return view('donate');
+});
