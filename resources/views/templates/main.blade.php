@@ -24,6 +24,7 @@
   @import url("{{ url('css/md-slider.css') }}");
   @import url("{{ url('css/md-slider-style.css') }}");
   @import url("{{ url('css/md-slider-home_1_slider-layers.css') }}");
+  @import url("{{ url('css/ol.css') }}");
 </style>
 
 
@@ -185,8 +186,13 @@
 
     <section class="shortcode-9">
       <div class="container">
+        <div class="row clearfix">
+        @yield('sub-block-1')
+      </div>
+        <!-- .row end -->
         <div class="row heading-1 mb-60 clearfix">
           <div class="col-xs-12 col-xs-offset-1  col-sm-12  col-md-3 col-md-offset-1">
+
             <div class="heading mb-0">
               <p>@yield('subheading')</p>
               <h2>@yield('heading')</h2>
@@ -199,7 +205,10 @@
           </div>
           <!-- .col-md-8 end -->
         </div>
-
+        <!-- .row end -->
+        <div class="row clearfix">
+        @yield('sub-block-2')
+      </div>
         <!-- .row end -->
       </div>
 
