@@ -23,6 +23,5 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/donate', function () {
-    return view('donate');
-});
+Route::get('/donate', 'Stripe\StripeController@config');
+Route::post('/donate', 'Stripe\StripeController@charge');
