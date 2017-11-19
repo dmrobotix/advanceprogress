@@ -25,7 +25,6 @@
   @import url("{{ url('css/md-slider-style.css') }}");
   @import url("{{ url('css/md-slider-home_1_slider-layers.css') }}");
   @import url("{{ url('css/ol.css') }}");
-  @import url("{{ url('css/custom.css') }}");
 </style>
 
 

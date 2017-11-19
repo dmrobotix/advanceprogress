@@ -1,5 +1,5 @@
 <?php
-
+use App\ModelLegislation;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,7 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('/database', function () {
-    return view('database');
+
+  $lg = ModelLegislation::all();
+
+    return view('database', ['legislation' => $lg]);
 });
 
 Route::get('/about', function () {
