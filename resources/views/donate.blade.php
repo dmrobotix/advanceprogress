@@ -9,16 +9,18 @@ Help Us
 @endsection
 
 @section('content')
-@if ($result != 0)
-<h1>{{$result}}</h1>
-@else
-<form action="/donate" method="post">
-  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="{{$stripe_key}}"
-          data-description="Access for a year"
-          data-amount="50.00"
-          data-locale="auto"></script>
-  <input type="hidden" name="_token" value="{{ csrf_token() }}">
-</form>
-@endif
+{!! Form::open() !!}
+{!! Form::hidden('test', 'testing') !!}
+{!! Form::label('amount','How much would you like to donate? ') !!}
+<div class="row">
+  <div class="col-md-5">
+    {!! Form::text('amount-us', null, ['class'=>'form-control','id'=>'amt']) !!}
+  </div>
+  <div class="col-md-5">
+    <div id="stripe"></div>
+  </div>
+</div>
+{!! Form::close() !!}
+
+
 @endsection

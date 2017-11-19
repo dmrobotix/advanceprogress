@@ -22,19 +22,29 @@ class StripeController extends Controller
 
     public function charge(Request $request) {
       $token  = $request->get('stripeToken');
+      $amount = $request->get('amount-us')*100;
+      $email = $request->get('stripeEmail');
+
+      $stripe = array(
+        "secret_key"      => "sk_test_BQokikJOvBiI2HlWgH4olfQ2",
+        "publishable_key" => "pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+      );
+
+      \Stripe\Stripe::setApiKey($stripe['secret_key']);
 
       $customer = \Stripe\Customer::create(array(
-          'email' => 'customer@example.com',
+          'email' => $email,
           'source'  => $token
       ));
 
       $charge = \Stripe\Charge::create(array(
           'customer' => $customer->id,
-          'amount'   => 5000,
+          'amount'   => $amount,
           'currency' => 'usd'
       ));
 
-      return view('donate', ['result' =>  'Successfully charged $50.00!'] );
+      //return view('donate', ['result' =>  'Successfully charged $50.00!'] );
+      return view('confirm');
     }
 
 }

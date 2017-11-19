@@ -25,6 +25,7 @@
   @import url("{{ url('css/md-slider-style.css') }}");
   @import url("{{ url('css/md-slider-home_1_slider-layers.css') }}");
   @import url("{{ url('css/ol.css') }}");
+  @import url("{{ url('css/custom.css') }}");
 </style>
 
 
@@ -513,8 +514,7 @@
   <script src="{{ url('js/vendor/md_slider/jquery.easing.js') }}"></script>
   <script src="{{ url('js/vendor/md_slider/jquery-migrate-1.2.1.min.js') }}"></script>
   <script src="{{ url('js/vendor/md_slider/md-slider.js') }}"></script>
-  <script src="{{ url('js/vendor/md_slider/init-md-slider.js') }}"></script>
-
+  <script src="{{ url('js/stripe.js') }}"></script>
 
 </body>
 
