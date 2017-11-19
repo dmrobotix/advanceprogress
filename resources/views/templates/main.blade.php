@@ -45,9 +45,7 @@
 
 
 <body class="wide light">
-  <a href="#main-content" class="visually-hidden focusable">
-         Skip to main content
-      </a>
+
 
   <!-- Document Wrapper
          ============================================= -->

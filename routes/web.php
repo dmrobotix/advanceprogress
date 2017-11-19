@@ -16,10 +16,13 @@ Route::get('/', function () {
 });
 
 Route::get('/database', function () {
-
   $lg = ModelLegislation::all();
+  return view('database', ['legislation' => $lg]);
+});
 
-    return view('database', ['legislation' => $lg]);
+Route::get('/legislation/{id}',function($id) {
+  $lg = ModelLegislation::where('mleg_id',$id)->first();
+  return view('legislation',['legislation' => $lg]);
 });
 
 Route::get('/about', function () {
