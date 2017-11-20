@@ -130,6 +130,9 @@
                   <li>
                     <p><a href="/about">About Us</a></p>
                   </li>
+                  <li>
+                    <p><a href="/resources">Resources</a></p>
+                  </li>
                 </ul>
               </div>
               <!-- .col-md-6 end -->
@@ -658,6 +661,13 @@
         <li>
 
           <a href="/about">About Us</a>
+
+        </li>
+
+
+        <li>
+
+          <a href="/resources">Resources</a>
 
         </li>
 
