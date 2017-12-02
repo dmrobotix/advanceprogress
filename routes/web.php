@@ -35,3 +35,10 @@ Route::get('/resources', function () {
 
 Route::get('/donate', 'Stripe\StripeController@config');
 Route::post('/donate', 'Stripe\StripeController@charge');
+
+/* Blog resource route */
+Route::resource('blog', 'BlogController', ['only' => ['index','create','store','show','edit','destroy']]);
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
