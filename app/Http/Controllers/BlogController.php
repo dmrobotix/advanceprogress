@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Blog;
 
 class BlogController extends Controller
 {
@@ -30,11 +31,7 @@ class BlogController extends Controller
      */
     public function create()
     {
-        // force user to authenticate to create a post
-        //$this->middleware('auth');
-
         return view('blog.create');
-
     }
 
     /**
@@ -45,8 +42,22 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        // insert a new blog post
-        $this->middleware('auth');
+      // validate Request
+      $validateData = $request->validate([
+        'title' => 'required|unique:blog',
+        'post' => 'required',
+        'author' => 'required'
+      ]);
+
+      // insert a new blog post
+      $blog = new Blog;
+      $blog->title = $request->title;
+      $blog->post = $request->post;
+      $blog->author = $request->author;
+      $blog->save();
+
+      return view('blog.index');
+
     }
 
     /**
@@ -81,6 +92,6 @@ class BlogController extends Controller
     public function destroy($id)
     {
         // remove a blog with blog id = $id from database
-        $this->middleware('auth');
+
     }
 }
