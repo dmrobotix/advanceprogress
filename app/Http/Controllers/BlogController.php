@@ -80,7 +80,6 @@ class BlogController extends Controller
     public function edit($id)
     {
         // edit blog post with blog id = $id
-        $this->middleware('auth');
     }
 
     /**
@@ -92,6 +91,16 @@ class BlogController extends Controller
     public function destroy($id)
     {
         // remove a blog with blog id = $id from database
+
+    }
+
+    public function nthindex($page) {
+      $nth = $page*5+1; // only display posts starting with the $nth post
+      $posts = Blog::all();
+      $chunk = array_slice($posts,$nth,5); // only save from the nth through nth+5
+      $total = size($posts)-$nth+4;
+      return view('blog.index',['posts' => $chunk,'total' => $total,'page'=> $page]);
+
 
     }
 }

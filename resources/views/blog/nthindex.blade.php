@@ -14,7 +14,7 @@ BLOG
 <section class="blog-main">
   <article>
     <div>
-      <h3>{{ $post->title}}</h3>
+      <h3>{{ $post->updated_at }}</h3>
       <h6>{{ date('F jS Y',strtotime($post->updated_at)) }}</h6>
       <h6>{{ $post->author }}</h6>
     </div>
@@ -29,8 +29,8 @@ BLOG
 <!-- need to test for number of blog entries -->
 @if(sizeof($post) !=0)
 <nav class="blog-nav">
-  @if(sizeof($post) > 5)
-  <a href="blog/1">Next</a>
+  @if($total > 0)
+  <a href="url{{blog/{$page-1}}}">Previous</a> | <a href="url{{blog/{$page+1}}}">Next</a>
   @endif
 </nav>
 @endif
