@@ -37,8 +37,8 @@ Route::get('/donate', 'Stripe\StripeController@config');
 Route::post('/donate', 'Stripe\StripeController@charge');
 
 /* Blog resource route */
-Route::resource('blog', 'BlogController', ['only' => ['index','create','store','show','edit','destroy']]);
-Route::get('/blog/{page}','BlogController@nthindex');
+Route::resource('blog', 'BlogController');
+//Route::get('/blog/{page}','BlogController@nthindex');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

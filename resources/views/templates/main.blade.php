@@ -4,14 +4,14 @@
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="Birdie.png" type="image/png" />
+<link rel="shortcut icon" href="{{url('Birdie.png')}}" type="image/png" />
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!--IE Compatibility Meta-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- Stylesheet -->
 <style media="all">
-  @import url("css/hidden.module.css");
+  @import url("{{url('css/hidden.module.css')}}");
 
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,500,400italic,700,700italic" media="all" />
@@ -25,6 +25,7 @@
   @import url("{{ url('css/md-slider-style.css') }}");
   @import url("{{ url('css/md-slider-home_1_slider-layers.css') }}");
   @import url("{{ url('css/ol.css') }}");
+  @import url("{{ url('css/blog.css') }}");
 </style>
 
 

@@ -11,11 +11,12 @@ class Blog extends Model
   * table specific parameters
   *
   **/
-  
+
   protected $table = 'blog';
-  protected $primaryKey = 'blog_id';
   protected $fillable = ['title',
-                          'post',
-                          'author'
+                         'body',
+                         'keywords',
+                         'permalink',
+                         'publish'
                         ];
 }

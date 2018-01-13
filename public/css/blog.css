@@ -1,0 +1,30 @@
+.blog-main {
+  padding-top:0;
+}
+.img-blog-left {
+  width:100%;
+  /*float:left;*/
+  margin-right:1%;
+}
+
+.img-blog-right {
+  width:100%;
+  /*float:right;*/
+  margin-left:1%;
+}
+
+.img-right {
+  float:right;
+  margin-left:3%;
+  width:50%;
+}
+
+.img-left {
+  float:left;
+  margin-right:3%;
+  width:50%;
+}
+
+.caption-blog {
+  padding-left:5%;
+}

@@ -9,7 +9,37 @@ Database
 @endsection
 
 @section('content')
-A list of our stored legislation.
+<p>A list of our stored legislation.</p>
+
+<p>Search the database.</p>
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-default">
+      <div class="panel-body">
+{!! Form::open(['action' => 'BlogController@store','class' => 'form-horizontal']) !!}
+{!! Form::token(); !!}
+<div class="form-group">
+<div class="col-md-1" style="display:padding-right:0px;width:7%; line-height:50px;">
+We,
+</div>
+<div class="col-md-4" style="padding:0;">
+{!! Form::text('db-legbody',null,['class' => 'form-control']); !!}
+</div>
+<div class="col-md-1" style="padding-left:7px; width:7%; padding-right:0;line-height:50px;">
+  from
+</div>
+<div class="col-md-5"style="padding-left:0px;"">
+  {!! Form::text('db-citystate',null,['class' => 'form-control']); !!}
+</div>
+</div>
+
+{!! Form::submit('Submit',['class' => 'btn btn-default']); !!}
+{!! Form::close() !!}
+</div>
+</div>
+</div>
+</div>
+
 @endsection
 
 @section('sub-block-2')
