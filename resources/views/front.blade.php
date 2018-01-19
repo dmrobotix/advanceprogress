@@ -119,6 +119,9 @@
           <div class="top-bar-border">
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6 hidden-xs">
+                @guest
+                Currently under construction!
+                @else
                 <ul class="list-inline top-contact">
 
                   <li>
@@ -134,6 +137,7 @@
                     <p><a href="/resources">Resources</a></p>
                   </li>
                 </ul>
+                @endguest
               </div>
               <!-- .col-md-6 end -->
               <div class="col-xs-12 col-sm-6 col-md-6 text-right text-center-xs">
@@ -220,9 +224,12 @@
 
                 <div class="md-object md-layer-1-1-3" data-x="606" data-y="339" data-width="120" data-height="13" data-start="1700" data-stop="8000" data-easein="fadeInUp" data-paddingtop="15" data-paddingright="15" data-paddingbottom="15" data-paddingleft="15" style="width: 8.89548%; height: 2.54902%; top: 66.4706%; left: 44.9222%; display: none;">
 
-                  <a href="#">
+                  @guest
+                  @else
+                  <a href="{{url('/database')}}">
                     CHECK IT NOW
                 </a>
+                @endguest
 
                 </div>
 
@@ -231,9 +238,7 @@
 
 
           </div>
-          <div class="md-bullets" style="left: 20px; right: 20px;">
-            <div class="md-bullet md-current" rel="0"><a></a></div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -503,10 +508,10 @@
                     <p class="mb-0">Don’t Miss To Follow Us On Our Social Networks Official Accounts.</p>
                   </div>
                   <div class="footer-social-icon pull-right text-right pull-none-xs">
-                    <a class="facebook" href="#">
+                    <a class="facebook" href="https://www.facebook.com/advanceprogresss/">
 		<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
 	</a>
-                    <a class="twitter" href="#">
+                    <a class="twitter" href="https://www.twitter.com/advprogress">
 		<i class="fa fa-twitter"></i><i class="fa fa-twitter"></i>
 	</a>
                   </div>
@@ -576,8 +581,8 @@
 
               <div>
 
-                <div class="footer-widget-title">
-                  <h5>Latest Tweets</h5></div>
+                <!--<div class="footer-widget-title">
+               <h5>Latest Tweets</h5></div>
 
                 <div class="footer-widget-content">
                   <div id="twitter-feed">
@@ -593,7 +598,7 @@
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div>-->
 
 
             </div>
@@ -631,7 +636,9 @@
 
 
 
-
+      @guest
+      Currently under constuction!
+      @else
       <ul class="list-unstyled list-links">
 
 
@@ -672,6 +679,7 @@
         </li>
 
       </ul>
+      @endguest
 
 
 
@@ -681,8 +689,8 @@
 
 
     <div class="social-share">
-      <a class="share-facebook" href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><i class="fa fa-facebook"></i></a>
-      <a class="share-twitter" href="#"><i class="fa fa-twitter"></i></a>
+      <a class="share-facebook" href="https://www.facebook.com/advanceprogresss/" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><i class="fa fa-facebook"></i></a>
+      <a class="share-twitter" href="https://www.twitter.com/advprogress"><i class="fa fa-twitter"></i></a>
     </div>
 
     <div class="copywright">
@@ -722,7 +730,7 @@
           "show_next_prev_button": 0,
           "auto_play": 1,
           "pause_hover": 1,
-          "show_bullet": 1,
+          "show_bullet": 0,
           "bullet_position": "3",
           "show_thumbnail": 0,
           "thumbnail_position": "1",
@@ -746,7 +754,7 @@
           "enableLoadingBar": false,
           "loadingBarPosition": "bottom",
           "enableNextPrevButton": false,
-          "enableBullet": true,
+          "enableBullet": false,
           "bulletPosition": "3",
           "enableThumbnail": false,
           "thumbnailPosition": "1",

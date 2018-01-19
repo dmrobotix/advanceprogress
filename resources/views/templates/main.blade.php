@@ -119,6 +119,8 @@
           <div class="top-bar-border">
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-6 hidden-xs">
+                @guest
+                @else
                 <ul class="list-inline top-contact">
 
                   <li>
@@ -134,6 +136,7 @@
                     <p><a href="/resources">Resources</a></p>
                   </li>
                 </ul>
+                @endguest
               </div>
               <!-- .col-md-6 end -->
               <div class="col-xs-12 col-sm-6 col-md-6 text-right text-center-xs">
@@ -235,10 +238,10 @@
                     <p class="mb-0">Don’t Miss To Follow Us On Our Social Networks Official Accounts.</p>
                   </div>
                   <div class="footer-social-icon pull-right text-right pull-none-xs">
-                    <a class="facebook" href="#">
+                    <a class="facebook" href="https://www.facebook.com/advanceprogresss/">
 		<i class="fa fa-facebook"></i><i class="fa fa-facebook"></i>
 	</a>
-                    <a class="twitter" href="#">
+                    <a class="twitter" href="https://www.twitter.com/advprogress">
 		<i class="fa fa-twitter"></i><i class="fa fa-twitter"></i>
 	</a>
                   </div>
@@ -308,7 +311,7 @@
 
               <div>
 
-                <div class="footer-widget-title">
+                <!--<div class="footer-widget-title">
                   <h5>Latest Tweets</h5></div>
 
                 <div class="footer-widget-content">
@@ -325,7 +328,7 @@
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div>-->
 
 
             </div>
@@ -363,7 +366,8 @@
 
 
 
-
+      @guest
+      @else
       <ul class="list-unstyled list-links">
 
 
@@ -404,17 +408,16 @@
         </li>
 
       </ul>
-
+      @endguest
 
 
 
 
     </div>
 
-
     <div class="social-share">
-      <a class="share-facebook" href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><i class="fa fa-facebook"></i></a>
-      <a class="share-twitter" href="#"><i class="fa fa-twitter"></i></a>
+      <a class="share-facebook" href="https://www.facebook.com/advanceprogresss/" data-toggle="tooltip" data-placement="top" title="Tooltip on top"><i class="fa fa-facebook"></i></a>
+      <a class="share-twitter" href="https://www.tiwtter.com/advprogress"><i class="fa fa-twitter"></i></a>
     </div>
 
     <div class="copywright">
