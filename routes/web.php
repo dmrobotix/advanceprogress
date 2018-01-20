@@ -1,5 +1,8 @@
 <?php
 use App\ModelLegislation;
+use App\Mail\ContactForm;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +16,19 @@ use App\ModelLegislation;
 
 Route::get('/', function () {
     return view('front');
+});
+
+Route::post('/', function(Request $formdata) {
+  // validate email
+  $validateData = $formdata->validate([
+    'name' => 'bail|required',
+    'email' => 'required',
+    'message' => 'required'
+  ]);
+  // send email
+    Mail::to('admin@advanceprogress.org')->send(new ContactForm($formdata));
+    session()->flash('status', 'Email sent! You\'ll receive a response soon.');
+    return redirect('/');
 });
 
 Route::get('/database', function () {

@@ -75,7 +75,7 @@
 
 
                 <a href="/" title="Home" rel="home">
-		            <img src="{{ url('images/leaplogo.png') }}" alt="Home" />
+		            <img src="{{ url('images/leaplogo-large.png') }}" alt="Home" height="100px"/>
 		        </a>
 
               </div>
@@ -93,7 +93,7 @@
 
             </div>
             <!-- .module-cart end -->
-            <!-- Module Search -->
+            <!-- Module Search
             <div class="module module-search pull-left">
               <div class="module-icon search-icon">
                 <i class="fa fa-search"></i>
@@ -101,7 +101,7 @@
               </div>
 
             </div>
-            <!-- .module-search-->
+             .module-search-->
             <!-- Module Side NAV -->
             <div class="module module-side-nav pull-left">
               <div class="module-icon side-nav-icon">

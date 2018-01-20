@@ -1,0 +1,45 @@
+#main-mouseover p {
+  display:none;
+  font-size:1em;
+}
+
+#main-mouseover {
+  height:150px;
+}
+
+.heading-1 p:last-child {
+  font-size:1.25em;
+}
+
+.heading h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.fa-angle-down {
+  color: #46a1f0;
+}
+
+.no-padding-top {
+  padding-bottom: 10px;
+  padding-top: 0;
+}
+
+.padding-middle {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 50px;;
+  padding-top:35px;
+}
+
+h2 {
+  font-size:26px;
+}
+
+.btn-default {
+  background-color: #46a1f0;
+  color: #fff;
+  border-color:#337ab7;
+}

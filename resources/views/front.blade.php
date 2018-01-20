@@ -24,6 +24,7 @@
   @import url("{{ url('css/md-slider.css') }}");
   @import url("{{ url('css/md-slider-style.css') }}");
   @import url("{{ url('css/md-slider-home_1_slider-layers.css') }}");
+  @import url("{{ url('css/ap.css') }}");
 </style>
 
 
@@ -75,7 +76,7 @@
 
 
                 <a href="/" title="Home" rel="home">
-		            <img src="{{ url('images/leaplogo.png') }}" alt="Home" />
+		            <img src="{{ url('images/leaplogo-large.png') }}" alt="Home" height="100px"/>
 		        </a>
 
               </div>
@@ -93,7 +94,7 @@
 
             </div>
             <!-- .module-cart end -->
-            <!-- Module Search -->
+            <!-- Module Search
             <div class="module module-search pull-left">
               <div class="module-icon search-icon">
                 <i class="fa fa-search"></i>
@@ -101,7 +102,7 @@
               </div>
 
             </div>
-            <!-- .module-search-->
+             .module-search-->
             <!-- Module Side NAV -->
             <div class="module module-side-nav pull-left">
               <div class="module-icon side-nav-icon">
@@ -245,9 +246,7 @@
 
 
 
-    <section class="shortcode-9">
-
-
+    <section class="shortcode-9 no-padding-top">
       <div class="container">
         <div class="row heading-1 mb-60 clearfix">
           <div class="col-xs-12 col-xs-offset-1  col-sm-12  col-md-3 col-md-offset-1">
@@ -259,39 +258,30 @@
           </div>
           <!-- .col-md-4 end -->
           <div class="col-xs-12  col-sm-12  col-md-7">
-            <p class="mb-0">We are a group of volunteer lawyers, students, activists, veterans and independent media journalists looking to identify and implement progressive legislation that will protect working families, the environment, minorities and the oppressed</p>
+            <p class="mb-0">We are a group of volunteer lawyers, students, activists, veterans and independent media journalists looking to develop progressive policy and model legislation that will protect working families, the environment, minorities and the oppressed</p>
           </div>
           <!-- .col-md-8 end -->
         </div>
         <!-- .row end -->
         <div class="row">
           <!-- Mission #1 -->
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <div class="num">
-              .01
-            </div>
-            <h3>Mission</h3>
-            <p class="mb-0">Developing Progressive legislation an policy for working families, communities and activists dismayed by the surge of right wing conservative policies and we are looking to implement progressive policy.</p>
+          <div class="col-xs-12 col-sm-4 col-md-4" id="main-mouseover">
+            <h2>Mission <i class="fa fa-angle-down"></i></h2>
+            <p class="mb-0">To develop progressive policy and model legislation designed to protect and advance the welfare of working families, minorities, underserved communities and the environment at the state and local level.</p>
           </div>
           <!-- .col-md-4 end -->
 
           <!-- Vision #2 -->
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <div class="num">
-              .02
-            </div>
-            <h3>Vision</h3>
-            <p class="mb-0">To make progressive policy,legislation and accessible for elected representatives and activists at the local level.</p>
+          <div class="col-xs-12 col-sm-4 col-md-4" id="main-mouseover">
+            <h2>Vision <i class="fa fa-angle-down"></i></h2>
+            <p class="mb-0">To make progressive policy and model legislation available for elected representatives and activists at the state and local level.</p>
           </div>
           <!-- .col-md-4 end -->
 
           <!-- Values #3 -->
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <div class="num">
-              .03
-            </div>
-            <h3>Values</h3>
-            <p class="mb-0">Our values is to work towards a society where we have shared prosperity and equal justice for all.</p>
+          <div class="col-xs-12 col-sm-4 col-md-4" id="main-mouseover">
+            <h2>Values <i class="fa fa-angle-down"></i></h2>
+            <p class="mb-0">Shared prosperity and equal justice for all.</p>
           </div>
           <!-- .col-md-4 end -->
 
@@ -301,14 +291,9 @@
 
     </section>
 
-    <section>
-
-
-
-      <div class="service service-1 mount-service1">
+    <section class="bg-gray shortcode-9 padding-middle">
         <div class="container">
-
-          <div class="row heading-1 mb-60 clearfix" id="service2">
+          <div class="row heading-1 mb-60 clearfix">
             <div class="col-xs-12 col-xs-offset-1  col-sm-12  col-md-3 col-md-offset-1">
               <div class="heading mb-0">
                 <p>What We Do</p>
@@ -324,89 +309,29 @@
           </div>
 
           <div class="row">
-
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="service-panel">
-                <div class="service-heading">
-                  <i class="icon icon pencil"></i>
-                  <h3>Drafting </h3>
-                </div>
-
-                <div class="service-body">
-                  <p>Drafting and creating model legislation implementing our progressive principles</p>
-                </div>
-
-                <div class="service-footer">
-                  <a href="#"><i class="fa fa-angle-down"></i></a>
-                </div>
-
-              </div>
+            <div class="col-xs-12 col-sm-6 col-md-3" id="main-mouseover">
+                  <h2>Drafting <i class="fa fa-angle-down"></i></h2>
+                  <p>Drafting and creating model legislation implementing our progressive principles.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="service-panel">
-                <div class="service-heading">
-                  <i class="icon icon-Line-Chart"></i>
-                  <h3>Policy </h3>
-                </div>
-
-                <div class="service-body">
-                  <p>Providing policy analysis and research for various progressive policy ideas</p>
-                </div>
-
-                <div class="service-footer">
-                  <a href="#"><i class="fa fa-angle-down"></i></a>
-                </div>
-
-              </div>
+            <div class="col-xs-12 col-sm-6 col-md-3" id="main-mouseover">
+                  <h2>Policy <i class="fa fa-angle-down"></i></h2>
+                  <p>Providing policy analysis and research for various progressive policy ideas.</p>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="service-panel">
-                <div class="service-heading">
-                  <i class="icon icon-legal"></i>
-                  <h3>Education </h3>
-                </div>
-
-                <div class="service-body">
-                  <p>Providing educational tool kits and conducting workshops relating to progressive legislative, regulatory and executive action alternatives</p>
-                </div>
-
-                <div class="service-footer">
-                  <a href="#"><i class="fa fa-angle-down"></i></a>
-                </div>
-
+            <div class="col-xs-12 col-sm-6 col-md-3" id="main-mouseover">
+                  <h2>Education <i class="fa fa-angle-down"></i></h2>
+                  <p>Providing educational tool kits and conducting workshops relating to progressive legislative, regulatory and executive action alternatives.</p>
               </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="service-panel">
-                <div class="service-heading">
-                  <i class="icon icon-legal"></i>
-                  <h3>Model Legislation </h3>
-                </div>
-
-                <div class="service-body">
+            <div class="col-xs-12 col-sm-6 col-md-3" id="main-mouseover">
+                  <h2>Model Legislation <i class="fa fa-angle-down"></i></h2>
                   <p>Providing a downloadable library of model legislation for your progressive causes locally. </p>
-                </div>
-
-                <div class="service-footer">
-                  <a href="#"><i class="fa fa-angle-down"></i></a>
-                </div>
-
-              </div>
             </div>
 
           </div>
-
         </div>
-      </div>
-
-
-
 
     </section>
 
-    <section class="feature feature-1 bg-gray pb-0">
-
-
+    <section class="no-padding-bottom shortcode-9">
       <div class="container">
         <div class="row heading-1 mb-60 clearfix">
           <div class="col-xs-12 col-xs-offset-1  col-sm-12  col-md-3 col-md-offset-1">
@@ -418,76 +343,16 @@
           </div>
           <!-- .col-md-4 end -->
           <div class="col-xs-12  col-sm-12  col-md-6">
-            <p class="mb-0">This is how we can help you</p>
+            <p class="mb-0">Once you identify a key issue, please get in touch.
+              We can take a look at local ordinances and procedures. We can
+              examine the best policy alternatives and implementation for your
+              community.
+              <br>
+              <button type="button" class="btn btn-default" style="margin-top:15px;" data-toggle="modal" data-target="#contact">Contact Us</button></p>
           </div>
-          <!-- .col-md-8 end -->
-        </div>
-        <!-- .row end -->
-        <div class="row">
-          <!-- Feature Panel #1 -->
-          <div class="col-xs-12 col-sm-4 col-md-4">
-            <!-- .feature-line end -->
-            <div class="feature-panel">
-              <div class="feature-heading">
-                <h3>Identify a Key Issue</h3>
-              </div>
-              <!-- .feature-heading end -->
-              <div class="feature-body">
-                <p>Once you identify a key issue, please approach us on how we can help you.</p>
-              </div>
-              <!-- .feature-body end -->
-            </div>
-            <!-- .feature-panel end -->
-          </div>
-          <!-- .col-md-4 end -->
-          <!-- Feature Panel #2 -->
-          <div class="col-xs-12 col-sm-4 col-md-4">
-
-            <!-- .feature-line end -->
-            <div class="feature-panel">
-              <div class="feature-heading">
-                <h3>Research Local Procedures</h3>
-              </div>
-              <!-- .feature-heading end -->
-              <div class="feature-body">
-                <p>We research local procedures to help figure out how to enact legislation</p>
-              </div>
-              <!-- .feature-body end -->
-            </div>
-            <!-- .feature-panel end -->
-          </div>
-          <!-- .col-md-4 end -->
-          <!-- Feature Panel #3 -->
-          <div class="col-xs-12 col-sm-4 col-md-4">
-
-            <!-- .feature-line end -->
-            <div class="feature-panel">
-              <div class="feature-heading">
-                <h3>Draft Legislation</h3>
-              </div>
-              <!-- .feature-heading end -->
-              <div class="feature-body">
-                <p>We draft the legislation and give you a plan to help enact such a legislation on a local level</p>
-              </div>
-              <!-- .feature-body end -->
-            </div>
-            <!-- .feature-panel end -->
-          </div>
-          <!-- .col-md-4 end -->
-          <!-- Feature Background -->
-          <div class="col-xs-12  col-sm-12  col-md-12">
-            <!-- <div class="feature-img">
-        <img class="img-1 wow fadeInUp" data-wow-delay="0" src="/themes/mount/assets/images/features/full/7.png" alt="feature">
-        <img class="img-2 wow fadeInUp" data-wow-delay="300ms" src="/themes/mount/assets/images/features/full/8.png" alt="feature">
-        <img  class="img-3 wow fadeInUp" data-wow-delay="500ms" src="/themes/mount/assets/images/features/full/9.png" alt="feature">
-      </div>-->
-          </div>
-          <!-- .col-md-12 end -->
         </div>
         <!-- .row end -->
       </div>
-
-
     </section>
 
 
@@ -799,8 +664,40 @@
   <script src="{{ url('js/vendor/md_slider/jquery-migrate-1.2.1.min.js') }}"></script>
   <script src="{{ url('js/vendor/md_slider/md-slider.js') }}"></script>
   <script src="{{ url('js/vendor/md_slider/init-md-slider.js') }}"></script>
+  <script src="{{ url('js/ap.js') }}"></script>
 
 
+  <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="contact">Write to Advance Progress</h4>
+      </div>
+      <div class="modal-body">
+        {!! Form::open() !!}
+        <div class="form-group">
+        {!! Form::label('lb-name', 'Name'); !!}
+        {!! Form::text('name', null, ['class' => 'form-control']); !!}
+        </div>
+        <div class="form-group">
+        {!! Form::label('lb-email', 'E-Mail Address'); !!}
+        {!! Form::text('email', null, ['class' => 'form-control']); !!}
+        </div>
+        <div class="form-group">
+        {!! Form::label('lb-message', 'Message'); !!}
+        {!! Form::textarea('message', null, ['class' => 'form-control']); !!}
+        </div>
+        {!! Form::hidden('form', 'media'); !!}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        {!! Form::submit('Send Message',['class' => 'btn btn-info']); !!}
+        {!! Form::close() !!}
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

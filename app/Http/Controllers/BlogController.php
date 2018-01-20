@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\MediaRequest;
-use App\Mail\PersonalRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use App\Blog;
@@ -404,6 +402,33 @@ class BlogController extends Controller
 
       return $linkinfo;
     }
+
+    private function findStyles($post) {
+      preg_match_all('/\[h1(.*?)h1\]/', $post->body, $matches['h1']);
+      preg_match_all('/\[h2(.*?)h2\]/', $post->body, $matches['h2']);
+      preg_match_all('/\[h3(.*?)h3\]/', $post->body, $matches['h3']);
+      preg_match_all('/\[h4(.*?)h4\]/', $post->body, $matches['h4']);
+      preg_match_all('/\[b(.*?)b\]/', $post->body, $matches['b']);
+      preg_match_all('/\[i(.*?)i\]/', $post->body, $matches['i']);
+      preg_match_all('/\[u(.*?)u\]/', $post->body, $matches['u']);
+      preg_match_all('/\[st(.*?)st\]/', $post->body, $matches['st']); // strike through
+      if (sizeof($matches)!=0) {
+        foreach($matches as $style)
+        for($i=0;$i<sizeof($style[0]);$i++) {
+          $contents = explode(',',trim($matches[1][$i]));
+          $linkinfo['href'][] = $contents[0];
+          $linkinfo['text'][] = $contents[1];
+          $linkinfo['match'][] = $matches[0][$i];
+        }
+      }
+      if(!isset($linkinfo)) {
+        $linkinfo = array();
+      }
+
+      return $linkinfo;
+    }
+
+
 
     public function keywords($keyword) {
       // find bis based on a keyword saerch
