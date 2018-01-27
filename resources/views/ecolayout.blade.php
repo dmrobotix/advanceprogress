@@ -54,7 +54,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="main-logo">
-                    <a href="index.html"><img src="{{ url('images/leaplogo-large.png') }}" alt="" height="100px"></a>
+                    <a href="index.html"><img src="{{ url('images/leaplogo-792px.png') }}" alt=""></a>
                 </div>
             </div>
             <div class="col-md-9 menu-column">
