@@ -15,7 +15,8 @@ use Illuminate\Http\Request;
 */
 
 Route::get('/', function () {
-    return view('front');
+    //return view('front');
+    return view('ecolayout');
 });
 
 Route::post('/', function(Request $formdata) {
