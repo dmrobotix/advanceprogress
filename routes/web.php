@@ -50,6 +50,10 @@ Route::get('/resources', function () {
     return view('resources');
 });
 
+Route::get('/map', function() {
+  return view('map');
+});
+
 Route::get('/donate', 'Stripe\StripeController@config');
 Route::post('/donate', 'Stripe\StripeController@charge');
 

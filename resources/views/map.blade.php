@@ -1,6 +1,15 @@
 @extends('templates.page')
 
+@section('title')
+Existing Legislation Interactive Map
+@endsection
+
+@section('breadcrumb')
+Interactive Map
+@endsection
+
 @section('maps')
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <script type="text/javascript">
 
@@ -60,5 +69,5 @@
 
 
 @section('load-map')
-<div id="geochart-colors" style="width: 700px; height: 433px;"></div>
+<div id="geochart-colors" style=""></div>
 @endsection

@@ -3,90 +3,27 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Welcome to Advance progress | Advance progress</title>
-
-	<!-- mobile responsive meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-	<link rel="stylesheet" href="{{url('css/style.css')}}">
-	<link rel="stylesheet" href="{{url('css/responsive.css')}}">
-
-	<link rel="apple-touch-icon" sizes="180x180" href="images/fav-icon/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="{{asset('images/fav-icon/favicon-32x32.png')}}" sizes="32x32">
-	<link rel="icon" type="image/png" href="{{asset('images/fav-icon/favicon-16x16.png')}}" sizes="16x16">
-	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-
-
-
+	@include('ecogreen-statics.header')
 </head>
 <body>
 
 <div class="boxed_wrapper">
 
-
 <div class="top-bar">
     <div class="container">
         <div class="clearfix">
-
-            <div class="float_left top-bar-info" style="padding-top:1%">
-							<h4>Legislation for Equality to Advance Progress <small>Currently under construction</small></h4>
-						</div>
-            <div class="right-column float_right">
-
-                <ul class="social list_inline">
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                </ul>
-                <!--<button class="thm-btn donate-box-btn">donate now</button>-->
-
-            </div>
-
-
+            @include('ecogreen-statics.topbar')
         </div>
-
-
     </div>
 </div>
 
 <section class="theme_menu stricky">
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="main-logo">
-                    <a href="index.html"><img src="{{ url('images/leaplogo-792px.png') }}" alt=""></a>
-                </div>
-            </div>
-            <div class="col-md-9 menu-column">
-                <nav class="menuzord" id="main_menu">
-                   <ul class="menuzord-menu">
-                        <li><a href="{{ url('/') }}">Home</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="right-column">
-                <div class="right-area">
-                    <div class="nav_side_content">
-                        <div class="search_option">
-                            <button class="search tran3s dropdown-toggle color1_bg" id="searchDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            <form action="#" class="dropdown-menu" aria-labelledby="searchDropdown">
-                                <input type="text" placeholder="Search...">
-                                <button><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </form>
-                       </div>
-                   </div>
-                </div>
-
-            </div>
-
-
+					@include('ecogreen-statics.thememenu')
         </div>
-
-
    </div>
 </section>
-
-
 
 <!--Start rev slider wrapper-->
 <section class="rev_slider_wrapper">
@@ -94,7 +31,7 @@
         <ul>
 
             <li data-transition="fade">
-                <img src="{{ asset('images/Communityeating20481.jpg') }}"  alt="" width="1920" height="888" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1" >
+                <img src="{{ asset('images/Communityeating20481.jpg') }}"  alt="" width="1920" height="888" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="1">
 
                 <div class="tp-caption  tp-resizeme"
                     data-x="left" data-hoffset="15"
@@ -201,7 +138,6 @@
     </div>
 </section>
 
-
 <section class="about sec-padd1">
     <div class="container">
 
@@ -228,8 +164,6 @@
 
     </div>
 </section>
-
-
 
 <section class="service">
     <div class="container">
@@ -276,295 +210,42 @@
 </section>
 
 
-
-
 <div class="border-bottom"></div>
 
+@include('ecogreen-statics.footer')
 
-
-
-<footer class="main-footer">
-
-    <!--Widgets Section-->
-    <div class="widgets-section">
-        <div class="container">
-            <div class="row">
-                <!--Big Column-->
-                <div class="big-column col-md-6 col-sm-12 col-xs-12">
-                    <div class="row clearfix">
-
-                        <!--Footer Column-->
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-
-                            <div class="footer-widget about-column">
-
-                            </div>
-                        </div>
-                        <!--Footer Column-->
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="footer-widget link-column">
-                                <div class="section-title">
-
-                                </div>
-                                <div class="widget-content">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!--Big Column-->
-                <div class="big-column col-md-6 col-sm-12 col-xs-12">
-                    <div class="row clearfix">
-
-                        <!--Footer Column-->
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="footer-widget post-column">
-                                <div class="section-title">
-
-                                </div>
-                                <div class="post-list">
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <!--Footer Column-->
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="footer-widget contact-column">
-
-                                <ul class="social-icon">
-                                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-
-             </div>
-         </div>
-     </div>
-
-
-
-</footer>
-
-<!--Footer Bottom-->
- <section class="footer-bottom">
-    <div class="container">
-        <div class="pull-left copy-text">
-            <p><a href="#">Copyright © 2018</a> LEAP. All Rights Reserved.</p>
-
-        </div><!-- /.pull-right -->
-        <div class="pull-right get-text">
-        </div><!-- /.pull-left -->
-    </div><!-- /.container -->
-</section>
-
-    <!-- Scroll Top  -->
-	<button class="scroll-top tran3s color2_bg"><span class="fa fa-angle-up"></span></button>
-	<!-- preloader  -->
-	<div class="preloader"></div>
-<div id="donate-popup" class="donate-popup">
-    <div class="close-donate theme-btn"><span class="fa fa-close"></span></div>
-    <div class="popup-inner">
-
-
-    <div class="container">
-        <div class="donate-form-area">
-            <div class="section-title center">
-                <h2>Donation Information</h2>
-            </div>
-
-            <h4>How much would you like to donate:</h4>
-
-            <form  action="#" class="donate-form default-form">
-                <ul class="chicklet-list clearfix">
-                    <li>
-                        <input type="radio" id="donate-amount-1" name="donate-amount" />
-                        <label for="donate-amount-1" data-amount="1000" >$1000</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="donate-amount-2" name="donate-amount" checked="checked" />
-                        <label for="donate-amount-2" data-amount="2000">$2000</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="donate-amount-3" name="donate-amount" />
-                        <label for="donate-amount-3" data-amount="3000">$3000</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="donate-amount-4" name="donate-amount" />
-                        <label for="donate-amount-4" data-amount="4000">$4000</label>
-                    </li>
-                    <li>
-                        <input type="radio" id="donate-amount-5" name="donate-amount" />
-                        <label for="donate-amount-5" data-amount="5000">$5000</label>
-                    </li>
-                    <li class="other-amount">
-
-                        <div class="input-container" data-message="Every dollar you donate helps end hunger.">
-                            <span>Or</span><input type="text" id="other-amount" placeholder="Other Amount"  />
-                        </div>
-                    </li>
-                </ul>
-
-                <h3>Donor Information</h3>
-
-                <div class="form-bg">
-                    <div class="row clearfix">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-
-                            <div class="form-group">
-                                <p>Your Name*</p>
-                                <input type="text" name="fname" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <p>Email*</p>
-                                <input type="text" name="fname" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <p>Address*</p>
-                                <input type="text" name="fname" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="form-group">
-                                <p>Phn Num*</p>
-                                <input type="text" name="fname" placeholder="">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <ul class="payment-option">
-                    <li>
-                        <h4>Choose your payment method:</h4>
-                    </li>
-                    <li>
-                        <div class="checkbox">
-                            <label>
-                                <input name="pay-us" type="checkbox">
-                                <span>Paypal</span>
-                            </label>
-                        </div>
-                    </li>
-                    <li>
-                       <div class="checkbox">
-                            <label>
-                                <input name="pay-us" type="checkbox">
-                                <span>Offline Donation</span>
-                            </label>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="checkbox">
-                            <label>
-                                <input name="pay-us" type="checkbox">
-                                <span>Credit Card</span>
-                            </label>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="checkbox">
-                            <label>
-                                <input name="pay-us" type="checkbox">
-                                <span>Debit Card</span>
-                            </label>
-                        </div>
-                    </li>
-                </ul>
-
-                <div class="center"><button class="thm-btn" type="submit">Donate Now</button></div>
-
-
-            </form>
-        </div>
-    </div>
-
-
-
-    </div>
-</div>
-
-	<!-- jQuery -->
-	<script src="{{asset('js/jquery.js')}}"></script>
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('js/menu.js')}}"></script>
-    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
-    <script src="{{asset('js/jquery.mixitup.min.js')}}"></script>
-    <script src="{{asset('js/jquery.fancybox.pack.js')}}"></script>
-    <script src="{{asset('js/imagezoom.js')}}"></script>
-    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-    <script src="{{asset('js/jquery.polyglot.language.switcher.js')}}"></script>
-    <script src="{{asset('js/SmoothScroll.js')}}"></script>
-    <script src="{{asset('js/jquery.appear.js')}}"></script>
-    <script src="{{asset('js/jquery.countTo.js')}}"></script>
-    <script src="{{asset('js/validation.js')}}"></script>
-    <script src="{{asset('js/wow.js')}}"></script>
-    <script src="{{asset('js/jquery.fitvids.js')}}"></script>
-    <script src="{{asset('js/nouislider.js')}}"></script>
-    <script src="{{asset('js/isotope.js')}}"></script>
-    <script src="{{asset('js/pie-chart.js')}}"></script>
-
-
-	<!-- revolution slider js -->
-    <script src="{{asset('js/rev-slider/jquery.themepunch.tools.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/jquery.themepunch.revolution.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.actions.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.carousel.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.kenburn.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.layeranimation.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.migration.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.navigation.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.parallax.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.slideanims.min.js')}}"></script>
-    <script src="{{asset('js/rev-slider/revolution.extension.video.min.js')}}"></script>
-
-
-    <script src="{{asset('js/custom.js')}}"></script>
-
-</div>
-
-<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact">
-<div class="modal-dialog" role="document">
-	<div class="modal-content">
-		<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<h4 class="modal-title" id="contact">Write to Advance Progress</h4>
-		</div>
-		<div class="modal-body">
-			{!! Form::open() !!}
-			<div class="form-group">
-			{!! Form::label('lb-name', 'Name'); !!}
-			{!! Form::text('name', null, ['class' => 'form-control']); !!}
+	<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="contact">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="contact">Write to Advance Progress</h4>
 			</div>
-			<div class="form-group">
-			{!! Form::label('lb-email', 'E-Mail Address'); !!}
-			{!! Form::text('email', null, ['class' => 'form-control']); !!}
+			<div class="modal-body">
+				{!! Form::open() !!}
+				<div class="form-group">
+				{!! Form::label('lb-name', 'Name'); !!}
+				{!! Form::text('name', null, ['class' => 'form-control']); !!}
+				</div>
+				<div class="form-group">
+				{!! Form::label('lb-email', 'E-Mail Address'); !!}
+				{!! Form::text('email', null, ['class' => 'form-control']); !!}
+				</div>
+				<div class="form-group">
+				{!! Form::label('lb-message', 'Message'); !!}
+				{!! Form::textarea('message', null, ['class' => 'form-control']); !!}
+				</div>
+				{!! Form::hidden('form', 'media'); !!}
 			</div>
-			<div class="form-group">
-			{!! Form::label('lb-message', 'Message'); !!}
-			{!! Form::textarea('message', null, ['class' => 'form-control']); !!}
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				{!! Form::submit('Send Message',['class' => 'btn btn-info']); !!}
+				{!! Form::close() !!}
 			</div>
-			{!! Form::hidden('form', 'media'); !!}
-		</div>
-		<div class="modal-footer">
-			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-			{!! Form::submit('Send Message',['class' => 'btn btn-info']); !!}
-			{!! Form::close() !!}
 		</div>
 	</div>
-</div>
+	</div>
+
 </div>
 
 </body>
