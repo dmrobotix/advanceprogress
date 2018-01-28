@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    <a href="{{url('/blog/create')}}">Create</a> a new blog post
+                    <a href="{{url('/blog/create')}}">Create</a> a new blog post<br>
+                    <a href="{{ url('/') }}">Return to Home</a>
                 </div>
             </div>
         </div>

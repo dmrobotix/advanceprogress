@@ -36,7 +36,7 @@
         <div class="pull-left">
             <ul class="list-inline link-list">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="{{ url('\') }}">Home</a>
                 </li>
 
                 <li>
