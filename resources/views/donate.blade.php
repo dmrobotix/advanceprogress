@@ -1,11 +1,11 @@
-@extends('templates.main')
+@extends('templates.page')
 
-@section('heading')
+@section('title')
 Donate
 @endsection
 
-@section('subheading')
-Help Us
+@section('breadcrumb')
+Donate
 @endsection
 
 @section('content')

@@ -1,6 +1,6 @@
 <div class="col-md-3">
     <div class="main-logo">
-        <a href="{{ url('/') }}"><img src="{{ url('images/leaplogo-792px.png') }}" alt=""></a>
+        <a href="{{ url('/') }}"><img src="{{ url('images/leaplogo-notext-625px.png') }}" alt=""></a>
     </div>
 </div>
 <div class="col-md-9 menu-column">

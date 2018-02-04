@@ -1,14 +1,14 @@
-@extends('templates.main')
+@extends('templates.page')
 
-@section('heading')
+@section('title')
 Model Legislation
 @endsection
 
-@section('subheading')
-Database
+@section('breadcrumb')
+ML Database
 @endsection
 
-@section('content')
+@section('left-side')
 <p>A list of our stored legislation.</p>
 
 <p>Search the database.</p>
@@ -28,7 +28,7 @@ We,
 <div class="col-md-1" style="padding-left:7px; width:7%; padding-right:0;line-height:50px;">
   from
 </div>
-<div class="col-md-5"style="padding-left:0px;"">
+<div class="col-md-5"style="padding-left:0px;">
   {!! Form::text('db-citystate',null,['class' => 'form-control']); !!}
 </div>
 </div>
@@ -42,7 +42,7 @@ We,
 
 @endsection
 
-@section('sub-block-2')
+@section('content')
 <table class="table">
   <thead>
     <tr>

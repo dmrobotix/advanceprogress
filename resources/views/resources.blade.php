@@ -1,11 +1,11 @@
-@extends('templates.main')
+@extends('templates.page')
 
-@section('heading')
+@section('title')
 Resources
 @endsection
 
-@section('subheading')
-RESOURCES
+@section('breadcrumb')
+Resources
 @endsection
 
 @section('content')
