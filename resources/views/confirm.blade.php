@@ -1,10 +1,10 @@
-@extends('templates.main')
+@extends('templates.page')
 
-@section('heading')
+@section('title')
 Donate
 @endsection
 
-@section('subheading')
+@section('breadcrumb')
 Help Us
 @endsection
 

@@ -49,7 +49,8 @@ class BlogController extends Controller
     {
         // display latest posts
         // only send ones that have publish set as 'yes'
-        $posts = Blog::all();
+        //$posts = Blog::all();
+        $posts = $this->getPosts();
         $max = $this->getMax();
         if (sizeof($posts) != 0) {
           $posts[0]->body = str_replace("\r\n\r\n",'</p><p>',$posts[0]->body);

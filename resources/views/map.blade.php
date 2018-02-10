@@ -61,6 +61,15 @@ Interactive Map
 
     // Instantiate and draw our chart, passing in some options.
     var chart = new google.visualization.GeoChart(document.getElementById('geochart-colors'));
+    google.visualization.events.addListener(chart, 'select', function() {
+      var selectionIdx = chart.getSelection()[0].row;
+      var countryName = data.getValue(selectionIdx, 0);
+      var countryValue = data.getValue(selectionIx,1);
+      window.open('');
+      console.log(selectionIdx);
+      console.log(countryName);
+      console.log(countryValue);
+  });
     chart.draw(data, options);
   }
 </script>
@@ -69,7 +78,14 @@ Interactive Map
 @section('content')
 <h2>Together we can make a difference</h2>
 <div class="text">
-    <p>When you give to Our Ecogreen, you know your donation is making a difference. Whether you are supporting one of our Signature Programs or our carefully curated list of Gifts That Give More, our professional staff works hard every day <br>to ensure every dollar has impact for the cause of your choice. </p>
+    <p>Some information regarding this interactive map should go here.</p>
+    {!! Form::open(['action' => ['ExistingLegislationController@geochartData']]) !!}
+    <div class="form-group">
+    {!! Form::label('lb-search', 'Keyword'); !!}
+    {!! Form::text('keyword', null, ['class' => 'form-control']); !!}
+    </div>
+    {!! Form::submit('Search!',['class' => 'btn btn-info']); !!}
+    {!! Form::close() !!}
 </div>
 <h4>Our Partner</h4>
 <div class="text">

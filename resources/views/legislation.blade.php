@@ -1,10 +1,10 @@
-@extends('templates.main')
+@extends('templates.page')
 
-@section('heading')
+@section('title')
 {{$legislation->title_of_model_legislation}}
 @endsection
 
-@section('subheading')
+@section('left-side')
 <strong>Category</strong> - {{$legislation->category}}
 @endsection
 
@@ -12,7 +12,7 @@
 <h3>Summary</h3> {{$legislation->summary}}
 @endsection
 
-@section('sub-block-2')
+@section('extra-section')
 <div class="row heading-1 mb-60 clearfix">
   <div class="col-xs-12 col-sm-12  col-md-2">
   </div>
