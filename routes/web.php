@@ -54,7 +54,7 @@ Route::get('/map', function() {
   return view('map');
 });
 
-//Route::get('/map/{keyword}', 'ExistingLegislationController@geochartData');
+Route::post('/map', 'ExistingLegislationController@geochartData');
 
 Route::get('/donate', 'Stripe\StripeController@config');
 Route::post('/donate', 'Stripe\StripeController@charge');

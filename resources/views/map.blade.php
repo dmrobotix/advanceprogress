@@ -64,8 +64,8 @@ Interactive Map
     google.visualization.events.addListener(chart, 'select', function() {
       var selectionIdx = chart.getSelection()[0].row;
       var countryName = data.getValue(selectionIdx, 0);
-      var countryValue = data.getValue(selectionIx,1);
-      window.open('');
+      var countryValue = data.getValue(selectionIdx,1);
+      window.open('https://advanceprogress.org');
       console.log(selectionIdx);
       console.log(countryName);
       console.log(countryValue);
@@ -79,7 +79,7 @@ Interactive Map
 <h2>Together we can make a difference</h2>
 <div class="text">
     <p>Some information regarding this interactive map should go here.</p>
-    {!! Form::open(['action' => ['ExistingLegislationController@geochartData']]) !!}
+    {!! Form::open(['action' => 'ExistingLegislationController@geochartData']) !!}
     <div class="form-group">
     {!! Form::label('lb-search', 'Keyword'); !!}
     {!! Form::text('keyword', null, ['class' => 'form-control']); !!}
