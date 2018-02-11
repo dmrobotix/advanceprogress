@@ -30,25 +30,9 @@ Interactive Map
     // Create the data table.
     var data = google.visualization.arrayToDataTable([
     ['State',   'Legislation'],
-    ['Alabama', 30], ['Alaska', 54], ['Arizona', 109], ['Arkansas', 89],
-    ['California', 12], ['Colorado', 3], ['Connecticut', 3],
-    ['Delaware', 28], ['Florida', 15],
-    ['Georgia', 4], ['Hawaii', 35], ['Idaho', 12],
-    ['Illinois', 12], ['Indiana', 6],
-    ['Iowa', 3], ['Kansas', 12],
-    ['Kentucky', 26], ['Louisiana', 3], ['Maine', 15],
-    ['Maryland', 9], ['Massachusetts', 0], ['Michigan', 13], ['Minnesota', 5],
-    ['Mississippi', 10], ['Missouri', 12], ['Montana', 1],
-    ['Nebraska', 29], ['Nevada', 6], ['New Hampshire', 32], ['New Jersey', null],
-    ['New Mexico', 33], ['New York', 14], ['North Carolina', 12], ['North Dakota', 18],
-    ['Ohio', 20], ['Oklahoma', 13], ['Oregon', 35],
-    ['Pennsylvania', 32], ['Rhode Island', 25], ['South Carolina', 22],
-    ['South Dakota', 14], ['Tennessee', 8], ['Texas', 1],
-    ['Utah', 21], ['Vermont', 2], ['Virginia', 16],
-    ['Washington', 0], ['West Virginia', 15],
-    ['Wisconsin', 5], ['Wyoming', 8]
-  ]);
 
+  ]);
+  
     // Set chart options
     var options = {
       region: 'US', // USA
@@ -84,12 +68,8 @@ Interactive Map
     {!! Form::label('lb-search', 'Keyword'); !!}
     {!! Form::text('keyword', null, ['class' => 'form-control']); !!}
     </div>
-    {!! Form::submit('Search!',['class' => 'btn btn-info']); !!}
+    {!! Form::submit('Search!',['class' => 'btn btn-info','id' => 'submit-map']); !!}
     {!! Form::close() !!}
-</div>
-<h4>Our Partner</h4>
-<div class="text">
-    <p>We partner with over 320 amazing projects worldwide, and have given over $150 million in cash and product grants to other groups since 2011. We also operate our own dynamic suite of Signature Programs.</p>
 </div>
 @endsection
 

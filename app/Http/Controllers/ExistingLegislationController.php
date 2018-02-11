@@ -12,6 +12,10 @@ class ExistingLegislationController extends Controller
     // presents information as a Google geochart friendly data table
 
     public function geochartData(Request $formdata) {
+      $validateData = $request->validate([
+        'keyword' => 'required'
+      ]);
+
       $states = States::all();
       $data = "['State', 'Legislation']";
       foreach ($states as $st) {
@@ -19,7 +23,8 @@ class ExistingLegislationController extends Controller
         $data = $data . ", ['$st' , $count]";
       }
 
-      return view('map')->with(compact['data',$data,'keyword',$formdata->keyword]);
+      //return view('map')->with(compact['data',$data,'keyword',$formdata->keyword]);
+      return response()->json(json_encode($data));
     }
 
     /* example
