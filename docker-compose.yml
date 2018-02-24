@@ -1,0 +1,14 @@
+version: "3"
+
+
+services:
+  app:
+    build: ./
+    ports:
+      - 8000:8000
+    volumes:
+      - "./storage/logs:/var/www/myapp/storage/logs"
+    environment:
+      - APP_ENV=development
+      - APP_KEY=base64:HFTyuhSaaF1/zbvzSDpRig91unDIj1Z3p++Qz8kn9NE=
+
