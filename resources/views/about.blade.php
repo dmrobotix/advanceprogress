@@ -13,7 +13,13 @@ About LEAP
 @endsection
 
 @section('content')
-Legislation to Advance Progress (“LEAP”) is a newly formed organization dedicated to serving the needs of activists, citizens, progressive organizations, candidates for elective office, and elected officials by identifying existing and helping to create model state and local progressive legislation. These laws will be bold and consistent with the progressive vision of placing people's needs before narrow financial interests of a small minority. LEAP will also evaluate and develop regulations and executive orders, and contribute to briefs in support of litigation, consistent with implementing our mission. Our members include lawyers, scientists, professors and activists from across the country. Our initial Board of Directors is comprised of David Dubrow, Natalie Holme Elsberg and Tiffany Heath.
+Legislation to Advance Progress (“LEAP”) is a newly formed organization helping to
+create model state and local progressive legislation, evaluate and develop
+regulations and executive orders, and contribute to briefs in support of
+litigation, consistent with implementing our mission. Our members include lawyers,
+scientists, professors and activists from across the country. Our initial Board
+of Directors is comprised of Natalie Holme Elsberg Anona J Changa Esq,
+Esha Krishnasqamy Esq and Tiffany Heath.
 @endsection
 
 @section('left-side')

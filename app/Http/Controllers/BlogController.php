@@ -247,7 +247,7 @@ class BlogController extends Controller
         $post = Blog::find($id);
         $post->title = $request->title;
         $post->body = $request->body;
-        //$post->body = DB::connection()->getPdo()->quote($request->body);
+        $post->author = $request->author;
         $post->summary = $request->summary;
         $post->summary_image = $request->summaryimage;
         $post->summary_caption = $request->summarycaption;

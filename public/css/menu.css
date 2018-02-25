@@ -6,7 +6,7 @@ License: http://codecanyon.net/licenses
 
 /*
 	CONTENTS:
-	
+
 	 1 - MENU CONTAINER
 		- Scrollable menu
 	 2 - BRAND
@@ -46,7 +46,7 @@ License: http://codecanyon.net/licenses
 
 /* FONT
 ======================================*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 
 
 /* 1 - MENU CONTAINER
@@ -55,7 +55,7 @@ License: http://codecanyon.net/licenses
 .menuzord *{
 	font-family: inherit;
 	box-sizing:border-box;
-	-moz-box-sizing:border-box; 
+	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 }
 .menuzord{
@@ -130,7 +130,7 @@ License: http://codecanyon.net/licenses
 .menuzord-menu ul.dropdown li ul.dropdown{
 	list-style: none;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 	display: none;
     position: absolute;
     z-index: 99;
@@ -394,46 +394,46 @@ License: http://codecanyon.net/licenses
 /* 13 - COLOR SCHEMES
 ======================================*/
 /* blue */
-.menuzord.blue .menuzord-menu > li.active > a, 
-.menuzord.blue .menuzord-menu > li:hover > a, 
-.menuzord.blue .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #4A89DC; 
+.menuzord.blue .menuzord-menu > li.active > a,
+.menuzord.blue .menuzord-menu > li:hover > a,
+.menuzord.blue .menuzord-menu ul.dropdown li:hover > a{
+	color: #4A89DC;
 }
 /* green */
-.menuzord.green .menuzord-menu > li.active > a, 
-.menuzord.green .menuzord-menu > li:hover > a, 
-.menuzord.green .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #37BC9B; 
+.menuzord.green .menuzord-menu > li.active > a,
+.menuzord.green .menuzord-menu > li:hover > a,
+.menuzord.green .menuzord-menu ul.dropdown li:hover > a{
+	color: #37BC9B;
 }
 /* red */
-.menuzord.red .menuzord-menu > li.active > a, 
-.menuzord.red .menuzord-menu > li:hover > a, 
-.menuzord.red .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #E9573F; 
+.menuzord.red .menuzord-menu > li.active > a,
+.menuzord.red .menuzord-menu > li:hover > a,
+.menuzord.red .menuzord-menu ul.dropdown li:hover > a{
+	color: #E9573F;
 }
 /* orange */
-.menuzord.orange .menuzord-menu > li.active > a, 
-.menuzord.orange .menuzord-menu > li:hover > a, 
-.menuzord.orange .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #ff670f; 
+.menuzord.orange .menuzord-menu > li.active > a,
+.menuzord.orange .menuzord-menu > li:hover > a,
+.menuzord.orange .menuzord-menu ul.dropdown li:hover > a{
+	color: #ff670f;
 }
 /* yellow */
-.menuzord.yellow .menuzord-menu > li.active > a, 
-.menuzord.yellow .menuzord-menu > li:hover > a, 
-.menuzord.yellow .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #F6BB42; 
+.menuzord.yellow .menuzord-menu > li.active > a,
+.menuzord.yellow .menuzord-menu > li:hover > a,
+.menuzord.yellow .menuzord-menu ul.dropdown li:hover > a{
+	color: #F6BB42;
 }
 /* purple */
-.menuzord.purple .menuzord-menu > li.active > a, 
-.menuzord.purple .menuzord-menu > li:hover > a, 
-.menuzord.purple .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #967ADC; 
+.menuzord.purple .menuzord-menu > li.active > a,
+.menuzord.purple .menuzord-menu > li:hover > a,
+.menuzord.purple .menuzord-menu ul.dropdown li:hover > a{
+	color: #967ADC;
 }
 /* pink */
-.menuzord.pink .menuzord-menu > li.active > a, 
-.menuzord.pink .menuzord-menu > li:hover > a, 
-.menuzord.pink .menuzord-menu ul.dropdown li:hover > a{ 
-	color: #D770AD; 
+.menuzord.pink .menuzord-menu > li.active > a,
+.menuzord.pink .menuzord-menu > li:hover > a,
+.menuzord.pink .menuzord-menu ul.dropdown li:hover > a{
+	color: #D770AD;
 }
 
 /* 14 - MOBILE MODE (RESPONSIVE MODE)
@@ -445,19 +445,19 @@ License: http://codecanyon.net/licenses
 		width: 100%;
 		position: relative;
 	}
-	
+
 	/* Brand */
 	.menuzord-responsive .menuzord-brand{
 		margin: 8px 30px 10px 20px;
 		font-size: 20px;
 		line-height: 1.55;
 	}
-	
+
 	/* Show/hide button */
 	.menuzord-responsive .showhide{
 		margin: 0;
 	}
-	
+
 	/* Menu */
 	.menuzord-responsive .menuzord-menu{
 		width: 100%;
@@ -472,7 +472,7 @@ License: http://codecanyon.net/licenses
 	.menuzord-responsive .menuzord-menu.scrollable > .scrollable-fix{
 		display: block;
 	}
-	
+
 	/* Menu items */
 	.menuzord-responsive .menuzord-menu > li{
 		width: 100%;
@@ -489,7 +489,7 @@ License: http://codecanyon.net/licenses
 	.menuzord-responsive .menuzord-menu > li:first-child > a{
 		border-top: solid 1px #f0f0f0;
 	}
-	
+
 	/* Dropdown */
 	.menuzord-responsive .menuzord-menu ul.dropdown,
 	.menuzord-responsive .menuzord-menu ul.dropdown li ul.dropdown{
@@ -500,7 +500,7 @@ License: http://codecanyon.net/licenses
 		background: #131e26;
 		float: left;
 	}
-	
+
 	/* Dropdown items */
 	.menuzord-responsive .menuzord-menu ul.dropdown li{
 		position: relative;
@@ -514,9 +514,9 @@ License: http://codecanyon.net/licenses
 	.menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li:hover > a{ padding-left: 50px !important; }
 	.menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li > ul.dropdown > li:hover > a{ padding-left: 70px !important; }
 	.menuzord-responsive .menuzord-menu.menuzord-indented > li > ul.dropdown > li > ul.dropdown > li > ul.dropdown > li:hover > a{ padding-left: 90px !important; }
-	
+
 	/* Dropdown/megamenu indicators */
-	.menuzord-responsive .menuzord-menu li .indicator{		
+	.menuzord-responsive .menuzord-menu li .indicator{
 		width: 60px;
 		height: 45px;
 		position: absolute;
@@ -534,7 +534,7 @@ License: http://codecanyon.net/licenses
 		font-size: 18px;
 		line-height: 36px;
 	}
-	
+
 	/* Megamenu */
 	.menuzord-responsive .menuzord-menu > li > .megamenu{
 		width: 100% !important;
@@ -555,7 +555,7 @@ License: http://codecanyon.net/licenses
 	.menuzord-responsive .menuzord-menu > li > .megamenu .megamenu-row{
 		margin-top: 0;
 	}
-	
+
 	/* Search field */
 	.menuzord-responsive .menuzord-menu > li.search form{
 		width: 100%;
@@ -565,7 +565,7 @@ License: http://codecanyon.net/licenses
 	.menuzord-responsive .menuzord-menu > li.search form input[type="text"]{
 		width: 100%;
 	}
-	
+
 	/* Tabs */
 	.menuzord-responsive .menuzord-tabs-nav{
 		width: 100%;
@@ -574,4 +574,3 @@ License: http://codecanyon.net/licenses
 		width: 100%;
 	}
 }
-

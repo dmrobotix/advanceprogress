@@ -37,6 +37,12 @@ Route::get('/database', function () {
   return view('database', ['legislation' => $lg]);
 });
 
+Route::post('/database', function (Request $req) {
+  $lg = ModelLegislation::where('state', $req->state)->get();
+  return response()->json(json_encode($lg));
+  //return $lg;
+});
+
 Route::get('/legislation/{id}',function($id) {
   $lg = ModelLegislation::where('mleg_id',$id)->first();
   return view('legislation',['legislation' => $lg]);
