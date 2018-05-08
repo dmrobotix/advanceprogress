@@ -12263,13 +12263,13 @@ label.panel-block:hover {
   border-top: #009ee2 5px solid;
 }
 
-#about {
+#about-us {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/public/images/citypeople.jpg") no-repeat center center fixed;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/public/images/citypeople.jpg") no-repeat center center fixed;
   background-size: 100%;
 }
 
-#about .hero.is-info {
+#about-us .hero.is-info {
   border-top: #009ee2 5px solid;
 }
 
