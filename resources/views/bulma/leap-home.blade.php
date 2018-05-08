@@ -21,12 +21,12 @@
         <div class="container has-text-centered">
             <div class="column is-6 is-offset-3">
                 <h1 class="title">
-                   The Stateless
+                    The Stateless
                 </h1>
                 <h2 class="subtitle">
-                   American Prisoner's disenfranchisement is a problem. Let's fix it.
+                    American Prisoner's disenfranchisement is a problem. Let's fix it.
                 </h2>
-                <a href ="https://peoplespolicyproject.org/2018/05/08/prisoners-should-be-allowed-to-vote-here-is-how-to-do-it/" class="button is-primary">Learn How</a>
+                <a href ="http://63.209.32.65/project" class="button is-primary">Learn How</a>
             </div>
         </div>
     </div>
@@ -52,13 +52,10 @@
                                     <li><strong>Policy</strong> analysis and research for various progressive policy ideas.</li>
                                     <li><strong>Education</strong> about legislative processes, local government and civics.</li>
                                 </ul>
-
-
                             </div>
-
-                    </div>
-                    <br />
-                </div>
+                        </div>
+                            <br />
+                        </div>
             </div>
             <div class="column">
                 <div class="card">
@@ -80,6 +77,7 @@
             </div>
 
 </section>
+
 <div class ="container column is-10" id ="join-us">
 <link href='https://actionnetwork.org/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://actionnetwork.org/widgets/v3/form/get-updates-30?format=js&source=widget&style=full'></script><div id='can-form-area-get-updates-30' style='width: 600px'><!-- this div is the target for our HTML insertion --></div>
 </div>
