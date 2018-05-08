@@ -11532,7 +11532,7 @@ label.panel-block:hover {
 }
 
 #splash .hero.is-info {
-  border-top: #009ee2 5px soli;
+  border-top: #009ee2 5px solid;
 }
 
 #splash .hero .nav,
@@ -11547,21 +11547,12 @@ label.panel-block:hover {
 }
 
 #prisoners {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("") no-repeat center center fixed;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("") no-repeat center center fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("http://i.dailymail.co.uk/i/pix/2012/06/29/article-2166260-13D3C00B000005DC-922_964x655.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://i.dailymail.co.uk/i/pix/2012/06/29/article-2166260-13D3C00B000005DC-922_964x655.jpg") no-repeat center center fixed;
+  background-size: 100%;
 }
 
-#prisoners hr {
-  background-color: #009ee2;
-}
-
-#prisoners .card-header {
-  background-color: #009ee2;
-}
-
-#prisoners .card-header .card-header-title {
-  color: white;
-  font-size: 2em;
-  text-transform: uppercase;
+#prisoners .hero.is-info {
+  border-top: #009ee2 5px solid;
 }
 
