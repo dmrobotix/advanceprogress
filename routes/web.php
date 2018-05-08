@@ -16,8 +16,14 @@ use Illuminate\Http\Request;
 
 Route::get('/', function () {
     //return view('front');
-    return view('ecolayout');
+    return view('bulma.leap-home');
 });
+
+Route::get('/project', function () {
+
+  return view('bulma.project');
+});
+
 
 Route::post('/', function(Request $formdata) {
   // validate email
