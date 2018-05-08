@@ -31,7 +31,7 @@
         </div>
     </div>
 </section>
-<!--<section class="section">
+<section class="section">
     <div class="container">
         <div class="heading">
             <h1 class="title">Our Work</h1>
@@ -45,11 +45,15 @@
                 <div class="section">
 
                     <div class="card">
-                        <div class="card-header"><p class="card-header-title">Let Prisoners Vote</p></div>
+                        <div class="card-header"><p class="card-header-title">What We Do?</p></div>
                         <div class="card-content">
                             <div class="content">
-                                <p>Despite this growing international consensus, however, the United States—the self-proclaimed lighthouse of democracy—significantly abridges the voter franchise. Only in Maine and Vermont can prisoners participate in elections; for the vast majority of the 1.5 million people in federal and state prisons, democracy remains a spectator sport. All told, less than 4,000 prisoners have the right to vote. It is time for this to change
-                                </p>
+                                <ul>
+                                    <li><strong>Drafting</strong> and creating model legislation implementing our progressive principles </li>
+                                    <li><strong>Policy</strong>analysis and research for various progressive policy ideas.</li>
+                                    <li><strong>Education</strong> about legislative processes, local government and civics.</li>
+                                </ul>
+
 
                                 <a href ="/project" class="button is-primary">Learn More</a>
                             </div>
@@ -60,26 +64,7 @@
                 </div>
             </div>
 
-</section> -->
-
-<section class="section">
-    <div class="container">
-        <div class="heading">
-            <h1 class="title">What We Do?</h1>
-            <h2 class="subtitle">Draft Policy for the Many, not the few</h2>
-            <hr class ="title-line">
-        </div>
-        <div class = "columns">
-            <div class ="column is-primary">
-                <h1>Drafting Legislation</h1>
-            </div>
-            <div class ="column is-primary">
-                <h1>Res </h1>
-        </div>
-    </div>
-    </div>
 </section>
-
 
 
 </body>
