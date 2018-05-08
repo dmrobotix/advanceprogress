@@ -26,7 +26,7 @@
                 <h2 class="subtitle">
                     American Prisoner's disenfranchisement is a problem. Let's fix it.
                 </h2>
-                <a href ="http://63.209.32.65/project" class="button is-primary">Learn How</a>
+                <a href ="https://peoplespolicyproject.org/2018/05/08/prisoners-should-be-allowed-to-vote-here-is-how-to-do-it/" class="button is-primary">Learn How</a>
             </div>
         </div>
     </div>
