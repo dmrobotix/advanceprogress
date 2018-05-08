@@ -63,9 +63,9 @@
                     <div class="card-content">
                         <div class="content">
                             <ul>
-                                <li><strong>Solving Problems</strong>Activists know the issues, but sometimes need help solving it .</li>
-                                <li><strong>Holding the Powerful Accountable</strong>Legislatures don't work how they are supposed to work</li>
-                                <li><strong>Evening the field</strong>Corporations spend billions, hiring people to draft legislation that works for them.</li>
+                                <li><strong>Solving Problems</strong> Activists know the issues, but sometimes need help solving it .</li>
+                                <li><strong>Holding the Powerful Accountable</strong> Legislatures don't work how they are supposed to work</li>
+                                <li><strong>Evening the field</strong> Corporations spend billions, hiring people to draft legislation that works for them.</li>
                             </ul>
 
 
