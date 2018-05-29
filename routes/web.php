@@ -18,10 +18,18 @@ Route::get('/', function () {
     //return view('front');
     return view('bulma.leap-home');
 });
+Route::get('/about', function () {
+
+    return view('bulma.leap-about');
+});
 
 Route::get('/project', function () {
 
   return view('bulma.project');
+});
+
+Route::get('/law', function () {
+    return view('singlelaw');
 });
 
 
@@ -49,8 +57,9 @@ Route::get('/legislation/{id}',function($id) {
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('bulma.leap-about');
 });
+
 
 Route::get('/resources', function () {
     return view('resources');

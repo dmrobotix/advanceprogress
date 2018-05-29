@@ -9,8 +9,9 @@ Donate
 @endsection
 
 @section('content')
+
+
 {!! Form::open() !!}
-{!! Form::hidden('test', 'testing') !!}
 {!! Form::label('amount','How much would you like to donate? ') !!}
 <div class="row">
   <div class="col-md-5">

@@ -8,24 +8,8 @@
 </head>
 <body>
 
-<div class="boxed_wrapper">
 
-
-<div class="top-bar">
-    <div class="container">
-        <div class="clearfix">
-            @include('ecogreen-statics.topbar')
-        </div>
-    </div>
-</div>
-
-<section class="theme_menu stricky">
-    <div class="container">
-        <div class="row">
-          @include('ecogreen-statics.thememenu')
-        </div>
-   </div>
-</section>
+	@include('bulma.navmenu')
 
 
 

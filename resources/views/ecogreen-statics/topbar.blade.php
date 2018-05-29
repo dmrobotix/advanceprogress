@@ -1,12 +1,9 @@
-<div class="float_left top-bar-info" style="padding-top:1%">
-  <h4>Legislation for Equality to Advance Progress <small>Currently under construction</small></h4>
-</div>
-<div class="right-column float_right">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <ul class="social list_inline">
-        <li><a href="https://www.facebook.com/advanceprogresss/"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="https://www.twitter.com/advprogress"><i class="fab fa-twitter"></i></a></li>
-    </ul>
-    <!--<button class="thm-btn donate-box-btn">donate now</button>-->
 
+
+
+<div id = "top-bar">
+<a href="#" ><i class="fab fa-facebook-square"></i></a>
+<a href="#"><i class="fab fa-twitter-square"></i></a>
 </div>

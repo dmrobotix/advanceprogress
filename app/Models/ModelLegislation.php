@@ -18,6 +18,9 @@ class ModelLegislation extends Model
   protected $fillable = ['title_of_model_legislation',
                           'category',
                           'text_of_model_legislation',
-                          'summary'
+                          'summary',
+                          'preamble',
+                          'purpose',
+                        
                         ];
 }

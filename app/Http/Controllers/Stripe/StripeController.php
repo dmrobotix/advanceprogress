@@ -11,8 +11,8 @@ class StripeController extends Controller
 
     public function config() {
       $stripe = array(
-        "secret_key"      => "sk_test_BQokikJOvBiI2HlWgH4olfQ2",
-        "publishable_key" => "pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+        "secret_key"      => "sk_live_dogNErtw5jFqusLVoceIt6Pe",
+        "publishable_key" => "pk_live_dwVbjMBEoByGdfMGR8SZrW1d"
       );
 
       \Stripe\Stripe::setApiKey($stripe['secret_key']);
@@ -26,8 +26,8 @@ class StripeController extends Controller
       $email = $request->get('stripeEmail');
 
       $stripe = array(
-        "secret_key"      => "sk_test_BQokikJOvBiI2HlWgH4olfQ2",
-        "publishable_key" => "pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+        "secret_key"      => "sk_live_dogNErtw5jFqusLVoceIt6Pe",
+        "publishable_key" => "pk_live_dwVbjMBEoByGdfMGR8SZrW1d"
       );
 
       \Stripe\Stripe::setApiKey($stripe['secret_key']);

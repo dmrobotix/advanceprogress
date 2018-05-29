@@ -15,18 +15,6 @@
         </div>
    </div>
 </section>
-@if (sizeof($legislation)!=0)
-  @foreach($legislation as $l)
-  <tr>
-    <td>{{$l->mleg_id}}</td>
-    <div class ="title"> {$l->title_of_model_legislation}}
-      <p>{$l->summary}}
-  </tr>
-  @endforeach
-@else
-<section class ="legislation">
+<section class ="legislation-cards">
 
-  </div>
-  <div class = "summary">
-  </div>
-   {$l->category}}
+</section>

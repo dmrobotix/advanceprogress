@@ -17,38 +17,92 @@ $navbar-item-img-max-height  */
 
 
 @import './node_modules/bulma/bulma.sass';
+@import'./node_modules/bulma-extensions/bulma-timeline/dist/bulma-timeline.sass';
 
-.hero.is-info {
+#splash {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url('http://www.advanceprogress.org/laravel/public/images/splashpage.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  border-top: $primary 5px solid;
-} 
-.hero .nav, .hero.is-success .nav {
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.hero .subtitle {
-  padding: 3rem 0;
-  line-height: 1.5;
-}
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+  ), url('http://i.dailymail.co.uk/i/pix/2012/06/29/article-2166260-13D3C00B000005DC-922_964x655.jpg') no-repeat center center fixed;
+  -webkit-background-size:100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
 
-hr {
-  
-    background-color:$primary;
-}
+  .hero.is-info {
 
 
-.card-header{
-  background-color: #009ee2;
-  .card-header-title{
-    color:white;
-    font-size: 2em;
-     text-transform: uppercase;
+    border-top: $primary 5px solid;
+  }
+  .hero .nav, .hero.is-success .nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+  }
+  .hero .subtitle {
+    padding: 3rem 0;
+    line-height: 1.5;
   }
 }
+
+#prisoners {
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+  ), url('http://i.dailymail.co.uk/i/pix/2012/06/29/article-2166260-13D3C00B000005DC-922_964x655.jpg') no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  .hero.is-info {
+
+    border-top: $primary 5px solid;
+  }
+}
+
+
+
+#about-us{
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+  ), url('/public/images/citypeople.jpg') no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  .hero.is-info {
+
+    border-top: $primary 5px solid;
+  }
+}
+hr{
+  color:$primary;
+
+}
+#donate-header{
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.5),
+                  rgba(0, 0, 0, 0.5)
+  ), url('https://unsplash.it/1200/900?random') no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+
+  .hero.is-info {
+
+    border-top: $primary 5px solid;
+  }
+}
+hr{
+  color:$primary;
+
+}
+
+.blue-bg{
+  background-color:$primary;
+}
+
