@@ -1,0 +1,54 @@
+$primary: #009ee2;
+$theme-colorB:#03c03c;
+
+/*----- Nav Bar Variables *---*/
+$navbar-background-color:#fff;
+$navbar-item-color: #231F20;
+$navbar-box-shadow-color:#231F20;
+
+/*Navbar-item variables
+$navbar-item-color	$grey-dark
+$navbar-item-hover-color	$link
+$navbar-item-hover-background-color	$background
+$navbar-item-active-color	$black
+$navbar-item-active-background-color	transparent
+$navbar-item-img-max-height  */
+
+
+
+@import './node_modules/bulma/bulma.sass';
+
+.hero.is-info {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('http://www.advanceprogress.org/laravel/public/images/splashpage.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-top: $primary 5px solid;
+} 
+.hero .nav, .hero.is-success .nav {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.hero .subtitle {
+  padding: 3rem 0;
+  line-height: 1.5;
+}
+
+hr {
+  
+    background-color:$primary;
+}
+
+
+.card-header{
+  background-color: #009ee2;
+  .card-header-title{
+    color:white;
+    font-size: 2em;
+     text-transform: uppercase;
+  }
+}
