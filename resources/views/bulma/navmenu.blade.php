@@ -14,8 +14,8 @@
         <div class ="navbar-end">
             <a class ="navbar-item" href="/">Home</a>
              <a class ="navbar-item" href="/project">Our Work</a>
-            <a class ="navbar-item " href="#about">About</a>
-            <a class ="navbar-item " href="#join-us">Join Us</a>
+            <a class ="navbar-item " href="/about">About</a>
+            <a class ="navbar-item " href="/join-us">Join Us</a>
              <a class ="navbar-item"  href="/donate">Donate</a>
             </div>
         </div>
