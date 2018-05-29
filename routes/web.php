@@ -21,6 +21,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
 
     return view('bulma.leap-about');
+
+
+    /* xommit this */
 });
 
 Route::get('/project', function () {
